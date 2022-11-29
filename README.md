@@ -1,9 +1,9 @@
 # Flickor
 Flickor is a clone of flickr and is a website that allows users to share all sorts of photos. <br>
-Live Link: [Flickor](https://dashboard.heroku.com/apps/flickor)
+Live Link: [Flickor](https://flickor.onrender.com/)
 
 # Index
-| [Feature List](https://github.com/bandrewi/solo-project/wiki/Features) | [Database Schema](https://github.com/bandrewi/solo-project/wiki/Database-Schema) | [API Documentation](https://github.com/bandrewi/solo-project/wiki/API-Documentation)
+| [Feature List](https://github.com/bandrewi/flickor-onrender/wiki/Features) | [Database Schema](https://github.com/bandrewi/flickor-onrender/wiki/Database-Schema) | [API Documentation](https://github.com/bandrewi/flickor-onrender/wiki/API-Documentation)
 
 # Technologies Used
 
@@ -21,7 +21,7 @@ Live Link: [Flickor](https://dashboard.heroku.com/apps/flickor)
 
 # Getting Started
 1. Clone this repo
-   * `git clone https://github.com/bandrewi/solo-project.git`
+   * `git clone https://github.com/bandrewi/flickor-onrender.git`
 2. Install dependencies from the root directory
    * npm install
 3. Create a POSTGRESQL user with CREATEDB and PASSWORD in PSQL.
