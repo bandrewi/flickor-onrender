@@ -1,14 +1,20 @@
 'use strict';
 
+let options = {};
+if (process.env.NODE_ENV === 'production') {
+  options.schema = process.env.SCHEMA;  // define your schema in options object
+}
+
 module.exports = {
   up: (queryInterface, Sequelize) => {
+    options.tableName = 'Photos'
     /*
       Add altering commands here.
       Return a promise to correctly handle asynchronicity.
 
       Example:
       */
-    return queryInterface.bulkInsert('Photos', [
+    return queryInterface.bulkInsert(options, [
       {
         userId: 1,
         imageUrl: 'https://images.unsplash.com/photo-1474511320723-9a56873867b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YW5pbWFsc3xlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60',
@@ -64,6 +70,7 @@ module.exports = {
 
       Example:
       */
-    return queryInterface.bulkDelete('Photos', null, {});
+    options.tableName = 'Photos'
+    return queryInterface.bulkDelete(options, null, {});
   }
 };
