@@ -1,0 +1,71 @@
+/* TODO Add site wide styles */
+
+html,
+body {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+body {
+    /* background-color: rgba(243, 245, 246, 255); */
+    /* position: relative; */
+    /* background-size: cover; */
+    /* background-color: #242424; */
+    /* background-color: #3a3a3a; */
+    /* background-color: #555555; */
+    /* background-color: #6d6d6d; */
+    /* position: relative; */
+    /* background-color: #3d3d3d; */
+    background-color: rgb(243, 245, 246);
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+* {
+    font-family: Proxima Nova, helvetica neue, helvetica, arial, sans-serif;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer>span {
+    color: white;
+    padding-right: 20px;
+}
+
+#footer-inner {
+    display: flex;
+}
+
+.flex-row {
+    display: flex
+}
+
+#technologies>img {
+    margin-right: 25px;
+    height: 40px;
+}
+
+
+#about {
+    align-items: center;
+}
+
+.about-image {
+    height: 30px;
+    margin-right: 25px;
+}
+
+#last-tech {
+    border-right: 1px solid white;
+    padding-right: 20px;
+}

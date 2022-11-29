@@ -1,0 +1,188 @@
+.nav-bar {
+    /* position: sticky; */
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 64px;
+    align-items: center;
+    z-index: 1;
+}
+
+.user-nav {
+    background-color: rgba(21, 21, 23, .95);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.flickor-logo {
+    height: 14px;
+    margin: 0px 5px 5px 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* #nav-li {
+    display: flex;
+    align-items: center;
+} */
+
+a {
+    text-decoration: none;
+}
+
+/* #profile-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+
+#nav-bar-ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px
+}
+
+#nonuser-flickor-li {
+    padding-left: 20px;
+}
+
+#nonuser-flickor-li>a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#nonuser-btns {
+    display: flex;
+    align-items: center;
+}
+
+#nav-login-li {
+    padding-right: 20px;
+}
+
+#nav-login-li>a {
+    color: white;
+    font-size: 16px;
+}
+
+#nav-signup-li {
+    padding-right: 20px;
+
+}
+
+#user-left-nav {
+    display: flex;
+    align-items: center;
+}
+
+#user-right-nav {
+    display: flex;
+    align-items: center;
+}
+
+#nav-signup-btn {
+    /* display: inline-block; */
+    /* outline: 0; */
+    /* text-align: center; */
+    cursor: pointer;
+    height: 32px;
+    width: 96.58px;
+    padding: 0 15px;
+    /* vertical-align: top; */
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background: #fff;
+    border-color: #e8e8e8;
+    color: #000;
+    font-weight: 600;
+    /* line-height: 16px; */
+    font-size: 16px;
+}
+
+#nav-signup-btn:hover {
+    color: rgba(0, 0, 0, .5);
+    transition: color .15s ease-in-out
+}
+
+#profile-btn {
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-icon {
+    height: 39px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.profile-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: #000 solid 1px;
+    background-color: rgba(243, 245, 246, 255);
+    padding: 0px;
+    z-index: 1;
+    height: 70px;
+    width: 150px;
+}
+
+#profile-username {
+    padding-top: 13px;
+    padding-bottom: 2px;
+    border-bottom: #3d3d3d solid 1px;
+}
+
+#profile-icon-clicked {
+    padding-top: 76px;
+}
+
+#logout-btn {
+    padding-top: 5px;
+}
+
+#nav-upload-btn {
+    padding-top: 3px;
+    padding-right: 20px;
+}
+
+#upload-icon {
+    height: 42px;
+    padding-top: 6px;
+}
+
+#your-photos {
+    margin-left: 30px;
+}
+
+#your-photos>a {
+    color: white;
+    font-size: 20px;
+}
+
+#your-favs {
+    margin-left: 30px;
+}
+
+#your-favs>a {
+    color: white;
+    font-size: 20px;
+}
+
+#user-flickor-li>a {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}

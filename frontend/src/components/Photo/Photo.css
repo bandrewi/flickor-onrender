@@ -1,0 +1,12 @@
+.photo {
+    height: 200px;
+    width: 508px;
+}
+
+.photo-content {
+    /* color: white; */
+    margin-top: 3px;
+    margin-left: 3px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 18px;
+}

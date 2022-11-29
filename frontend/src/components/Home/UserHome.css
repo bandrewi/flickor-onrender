@@ -1,0 +1,40 @@
+#userhome-photo-container-outer {
+    margin: 100px auto 0px;
+    width: 1055px;
+    /* width: 1524px; */
+    border: 1px solid transparent;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ppl-to-follow {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    width: 1030px;
+    font-size: 16px;
+}
+
+#userhome-photo-container {
+    margin: 2px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 508px);
+    /* grid-auto-rows: auto; */
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+.photo-container {
+    width: 508px;
+}
+
+/* .grid_figure {
+    display: grid;
+} */
+
+/* .userhome-photo {
+    object-fit: cover;
+} */

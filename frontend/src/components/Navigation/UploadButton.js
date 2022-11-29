@@ -1,0 +1,11 @@
+import { NavLink } from "react-router-dom";
+
+export default function UploadButton() {
+    return (
+        <NavLink to='/upload'>
+            <p>
+                <img id='upload-icon' src='data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0ibm9uZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMzQuMDUyNSw1Ny4zNjJjLTYuMjA2MzMsLTIxLjEyNzMzIC0yNS40Nzc1LC0zNS44NjIgLTQ4LjA1MjUsLTM1Ljg2MmMtMTYuNDI2LDAgLTMxLjgyLDguMTU1NjcgLTQxLjE1MSwyMS41MzU4M2MtMjQuODgyNjcsMC45MTczMyAtNDQuODQ5LDIxLjQ0MjY3IC00NC44NDksNDYuNTQ3NWMwLDI1LjY4NTMzIDIwLjg5OCw0Ni41ODMzMyA0Ni41ODMzMyw0Ni41ODMzM2gxNy45MTY2N2gxNC4zMzMzM3YtNDNoLTIxLjVsMjguNjY2NjcsLTI4LjY2NjY3bDI4LjY2NjY3LDI4LjY2NjY3aC0yMS41djQzaDE0LjMzMzMzaDI1LjA4MzMzYzIxLjczNjUsMCAzOS40MTY2NywtMTcuNjg3MzMgMzkuNDE2NjcsLTM5LjQxNjY3YzAsLTIxLjI0MiAtMTYuODkxODMsLTM4LjYyMTE3IC0zNy45NDc1LC0zOS4zODh6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=' alt="" />
+            </p>
+        </NavLink>
+    )
+}

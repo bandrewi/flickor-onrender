@@ -1,0 +1,138 @@
+/* #login-form {
+    padding: 10px;
+    position: absolute;
+    top: 12px;
+    margin: 250px 200px 0px 680px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 500px;
+    width: 500px;
+} */
+
+#login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://live.staticflickr.com/7860/47508364201_5030d46631_b.jpg');
+    background-size: cover;
+    background-position: bottom
+}
+
+#login-logo {
+    margin-top: 50px;
+}
+
+.login-signup-heading {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 350px;
+    height: 285px;
+    border-radius: 3px;
+    margin: 0 auto 0 auto;
+    padding: 0px 0px 50px 0px;
+    /* border: black 4px solid; */
+}
+
+.login {
+    width: 293px;
+    padding: 9px;
+    margin-top: 15px;
+    background-color: #128fdc;
+    border: transparent;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* #login {
+    margin: 8px;
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 16px;
+    border-radius: 2px;
+    min-width: 70px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 49, 48);
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgb(138, 136, 134);
+} */
+
+.login-input {
+    margin: 5px;
+    border: #ccc 1px solid;
+    padding: 15px 8px;
+    width: 275px;
+    margin-top: 10px;
+    font-size: 1em;
+    border-radius: 4px;
+    outline-color: #4695f5;
+}
+
+#password {
+    margin-top: 5px;
+}
+
+#credential-error {
+    color: red;
+    margin-right: 10px;
+    /* margin-bottom: 5px; */
+    font-size: 15px;
+}
+
+#password-error {
+    color: red;
+    /* margin-top: 5px; */
+    margin-left: 30px;
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+#invalid-credential-error {
+    color: red;
+    margin-top: 5px;
+    font-size: 15px;
+    /* margin-right: 40px; */
+}
+
+.login:hover {
+    filter: brightness(105%);
+    cursor: pointer;
+}
+
+#login-signup-redirect-container {
+    margin-top: 15px;
+}
+
+#login-signup-redirect-container>* {
+    font-size: 14px;
+}
+
+#login-signup-redirect {
+    color: #006dac;
+}
+
+#demo-container {
+    margin-top: 5px;
+}
+
+#demo {
+    color: #006dac;
+    cursor: pointer;
+}
