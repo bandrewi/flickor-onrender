@@ -19,6 +19,17 @@ Live Link: [Flickor](https://flickor.onrender.com/)
 * Git
 * VScode
 
+# Technical Implementation
+When cloning Flickr I knew I had to incorporate the iconic splash page with the image gallery slideshow. To do this, I used an useEffect function and a setInterval function to create a set time for the photos to switch from one to another. 
+
+![image](https://github.com/bandrewi/flickor-onrender/assets/92858393/60c5191c-7838-4a92-a898-411342d699ec)
+
+Another feature I wanted to incorporate into my clone is the custom image gallery. The custom gallery allows users to view any image in their collection and view the next or the previous image.
+
+![image](https://github.com/bandrewi/flickor-onrender/assets/92858393/b9f956bd-3b59-4c5e-aa3c-41301cc4b47d)
+
+![image](https://github.com/bandrewi/flickor-onrender/assets/92858393/f737c5ae-aa75-4e8f-8d42-8ebaffede5aa)
+
 # Getting Started
 1. Clone this repo
    * `git clone https://github.com/bandrewi/flickor-onrender.git`
